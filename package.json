@@ -1,0 +1,31 @@
+{
+  "name": "restful_blog_app",
+  "version": "1.0.0",
+  "description": "Blog using RESTful conventions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derontron/restful_blog_app.git"
+  },
+  "keywords": [
+    "REST",
+    "CRUD",
+    "Blog"
+  ],
+  "author": "Deron K. Asbery Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derontron/restful_blog_app/issues"
+  },
+  "homepage": "https://github.com/derontron/restful_blog_app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.7",
+    "method-override": "^2.3.6"
+  }
+}
